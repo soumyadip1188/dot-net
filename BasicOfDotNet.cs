@@ -255,6 +255,50 @@ namespace ConsoleApplication2
             //else
             //    Console.WriteLine("not");
             //Console.ReadLine();
+            
+            //reverse of a number
+            //Console.WriteLine("enter the number");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int rev = 0;
+            //while(n>0)
+            //{
+            //    int i = n % 10;
+            //    n = n / 10;
+            //    rev = rev*10 + i;
+            //}
+            //Console.WriteLine(rev);
+            //Console.ReadLine();
+
+            //palindrome number
+            //Console.WriteLine("enter the number");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int rev=0;
+            //int m = n;
+            //while(n>0)
+            //{
+            //    int i = n % 10;
+            //    n = n / 10;
+            //    rev = rev * 10 + i;
+            //}
+            //if (rev == m)
+            //    Console.WriteLine("palindrome");
+            //else
+            //    Console.WriteLine("not plaindrome");
+
+            //gcd of two number
+            //Console.WriteLine("enter two number");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //int m = Convert.ToInt32(Console.ReadLine());
+            //while(m!=n)
+            //{
+            //    if (m > n)
+            //        m = m - n;
+            //    else if (n > m)
+            //        n = n - m;
+            //}
+            //Console.WriteLine(m);
+
+            Console.ReadLine();
         }
     }
 }
