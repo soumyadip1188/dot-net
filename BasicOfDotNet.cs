@@ -298,6 +298,82 @@ namespace ConsoleApplication2
             //}
             //Console.WriteLine(m);
 
+            
+             //declaring array
+            //int[] arr = { 3, 4, 5, 6, 7, 8 };
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine(arr[i]);
+            //}
+
+            //user input array
+            //Console.WriteLine("enter the size of array");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("enter the elements");
+            //int[] arr = new int[n];
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] =Convert.ToInt32(Console.ReadLine());
+            //}
+            //for (int i = 0; i < n; i++)
+            //{
+            //    Console.WriteLine("The elements are"+ arr[i]);
+            //}
+
+            //sum of array elements
+            //Console.WriteLine("enter the size of array");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("enter the elements");
+            //int[] arr = new int[n];
+            //int sum = 0;
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] =Convert.ToInt32(Console.ReadLine());
+            //}
+            //for (int i = 0; i < n; i++)
+            //{
+            //    sum = sum + arr[i];
+            //}
+            //Console.WriteLine(sum);
+
+            //maximum element in array
+            //int[] arr = { 1, 5, 7 };
+            //int max = arr[0];
+            //for (int i = 0; i < arr.Length;i++ )
+            //{
+            //    if (arr[i] > max)
+            //        max = arr[i];
+            //}
+            //Console.WriteLine(max);
+
+            //binary search
+            //Console.WriteLine("enter the size of array");
+            //int n = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("enter the elements in sorted order");
+            //int[] arr = new int[n];
+            //for (int i = 0; i < n; i++)
+            //{
+            //    arr[i] =Convert.ToInt32(Console.ReadLine());
+            //}
+            //Console.WriteLine("enter the key");
+            //int key=Convert.ToInt32(Console.ReadLine());
+            //int l=0;
+            //int h=n-1;
+            //int mid;
+            //while(l<=h)
+            //{
+            //    mid = (l + h) / 2;
+            //    if (key == arr[mid])
+            //    {
+            //        Console.WriteLine("found at " + mid);
+            //        break;
+            //    }
+            //    else if (key < arr[mid])
+            //        h = mid - 1;
+            //    else
+            //        l = mid + 1;
+            //}
+            //Console.WriteLine("not found");
             Console.ReadLine();
         }
     }
